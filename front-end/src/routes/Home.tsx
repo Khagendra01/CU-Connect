@@ -1,11 +1,11 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import SignInPrompt from './login';
-import MainPage from './mainPage';
-import Feedback from './feedback';
-import Profile from './profile';
-import RegisterPrompt from './Register';
+import SignInPrompt from '../components/login';
+import MainPage from '../views/HomePage';
+import Feedback from '../views/ContactUs';
+import Profile from '../views/profile';
+import RegisterPrompt from '../components/Register';
 
 const RouteConfig= () => {
     return (

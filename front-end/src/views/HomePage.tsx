@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import Navbar from "./navbar";
+import Navbar from "../components/Header";
 
 import "../styles/MainPage.css"; // Import the CSS file for styling
 

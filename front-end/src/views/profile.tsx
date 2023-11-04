@@ -1,6 +1,6 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import '../styles/profile.css';
-import Navbar from './navbar';
+import Navbar from '../components/Header';
 
 
 

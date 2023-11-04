@@ -1,6 +1,6 @@
 import React from "react";
 
-import RouteConfig from "./components/Routes";
+import RouteConfig from "./routes/Home";
 
 function App() {
   return <RouteConfig />;

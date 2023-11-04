@@ -16,7 +16,7 @@ function SignInPrompt() {
   };
 
   const handleSignIn = () => {
-    // Your sign-in logic here
+    handleNavigation("/mainPage")
   };
 
   const handleNavigation = (route: string) => {

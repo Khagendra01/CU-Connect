@@ -1,5 +1,5 @@
 import React, { useState, ChangeEvent } from "react";
-//import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../styles/SignInPrompt.css"; // Import the CSS file for styling
 
 interface RegisterInfo {
@@ -16,15 +16,20 @@ function RegisterPrompt() {
     emailaddress: "",
     password: "",
   });
-  //const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleRegisterInfoChange = (name: string, value: string) => {
     setRegisterInfo({ ...registerInfo, [name]: value });
   };
 
   const handleRegister = () => {
-    // Your registration logic here
+    handleNavigation("./login")
+  }
+
+  const handleNavigation = (route: string) => {
+    navigate(route);
   };
+
 
   return (
     <div className="sign-in-prompt-container">
@@ -76,7 +81,8 @@ function RegisterPrompt() {
 
       <button onClick={handleRegister} className="sign-in-button">
         Register
-      </button>
+      </button><br></br>
+      <button className="register-button" onClick={() => handleNavigation("/login")}>Already, a user? LOG IN</button>
     </div>
   );
 }
