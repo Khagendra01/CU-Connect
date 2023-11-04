@@ -1,12 +1,9 @@
-import React from 'react';
+import React from "react";
 
+import RouteConfig from "./components/Routes";
 
 function App() {
-  return (
-<>
-    <p> typescript world </p>
-</>
-  );
+  return <RouteConfig />;
 }
 
 export default App;
