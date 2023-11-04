@@ -1,5 +1,5 @@
 import React, { useState, ChangeEvent } from "react";
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 import "../styles/SignInPrompt.css"; // Import the CSS file for styling
 
 interface RegisterInfo {
@@ -16,7 +16,7 @@ function RegisterPrompt() {
     emailaddress: "",
     password: "",
   });
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
 
   const handleRegisterInfoChange = (name: string, value: string) => {
     setRegisterInfo({ ...registerInfo, [name]: value });
