@@ -23,7 +23,7 @@ function Navbar(props: NavbarProps) {
       {/* Navbar */}
       <div className="navbar">
         <button className="home-button" onClick={() => handleNavigation("/")}>
-          Home
+          CU-Connect
         </button>
         <div className="profile-icon">
           {/* You can place your profile icon or avatar here */}

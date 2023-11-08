@@ -1,11 +1,14 @@
 import React from 'react';
 
 import "../styles/JobsPage.css"; 
+import Navbar from '../components/Header';
 
 function JobsPage() {
     return (
-        <div className='job-title'>
-            Hello world
+        <div className="job-main">
+        {/* Navbar */}
+        <Navbar />
+        <p> job page</p>
         </div>
     );
 }

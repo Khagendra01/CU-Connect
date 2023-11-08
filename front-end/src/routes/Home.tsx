@@ -12,7 +12,7 @@ const RouteConfig= () => {
     return (
         <BrowserRouter>
         <Routes>
-          <Route path="/" element={<RegisterPrompt />} />
+          <Route path="/" element={<MainPage />} />
           <Route path="/mainPage" element={<MainPage />} />
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/profile" element={<Profile />} />

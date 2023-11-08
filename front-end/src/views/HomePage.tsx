@@ -21,7 +21,7 @@ function MainPage() {
       <div className="main-page">
         <h1 className="main-title">Hey User, Welcome to Our App</h1>
         <div className="button-container">
-          <button onClick={() => handleNavigation("/")} className="big-button">
+          <button onClick={() => handleNavigation("/jobPage")} className="big-button">
             Jobs
           </button>
           <button onClick={() => handleNavigation("/")} className="big-button">
