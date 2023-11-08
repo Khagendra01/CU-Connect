@@ -11,5 +11,7 @@ for thre front end part type "cd front-end"<br>
 type "npm install"<br>
 type "npm start"
 
+how to add the file:
+
 for the back-end:
 ------
