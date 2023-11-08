@@ -6,6 +6,7 @@ import MainPage from '../views/HomePage';
 import Feedback from '../views/ContactUs';
 import Profile from '../views/profile';
 import RegisterPrompt from '../components/Register';
+import JobsPage from '../views/JobsPage';
 
 const RouteConfig= () => {
     return (
@@ -17,6 +18,7 @@ const RouteConfig= () => {
           <Route path="/profile" element={<Profile />} />
           <Route path="/register" element={<RegisterPrompt />} />
           <Route path="/login" element={<SignInPrompt />} />
+          <Route path="/jobPage" element={<JobsPage />} />
         </Routes>
       </BrowserRouter>
     );
