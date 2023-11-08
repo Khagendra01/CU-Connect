@@ -14,8 +14,17 @@ type "npm start"
 how to add the file:
 
 go to github and sync the fork to the main
-go to your file
+go to your file in vs studio
+go to main directory "cu-connect"
 git pull
+
+do changes------
+
+go to main directory "cu-connect"
+git add .
+git commit -m "your reason"
+git push
+
 
 for the back-end:
 ------
