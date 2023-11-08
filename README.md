@@ -13,5 +13,9 @@ type "npm start"
 
 how to add the file:
 
+go to github and sync the fork to the main
+go to your file
+git pull
+
 for the back-end:
 ------
