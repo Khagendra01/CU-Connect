@@ -1,7 +1,7 @@
 # CU-Connect
 This repository is made for the web application to connect caldwell graduate to current student
 
-some  noise
+some  noise and more
 
 the way to run this code is:<br>
 go to terminal or command <br>
