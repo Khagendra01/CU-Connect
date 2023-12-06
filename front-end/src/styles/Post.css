@@ -1,0 +1,16 @@
+.input-box{
+    width:60%;
+    height: 30vh;
+    padding:30px;
+    margin-top: 20px;
+
+}
+.Container{
+    text-align: center;
+}
+
+.post-button{
+    margin-top:10px;
+    border-radius: 5px;
+
+}
