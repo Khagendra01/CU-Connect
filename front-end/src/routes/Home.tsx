@@ -7,6 +7,7 @@ import Feedback from '../views/ContactUs';
 import Profile from '../views/profile';
 import RegisterPrompt from '../components/Register';
 import JobsPage from '../views/JobsPage';
+import Post from './Post';
 
 const RouteConfig= () => {
     return (
@@ -19,6 +20,7 @@ const RouteConfig= () => {
           <Route path="/register" element={<RegisterPrompt />} />
           <Route path="/login" element={<SignInPrompt />} />
           <Route path="/jobPage" element={<JobsPage />} />
+          <Route path ="/post" element = {<Post/>} />
         </Routes>
       </BrowserRouter>
     );

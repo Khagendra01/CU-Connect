@@ -30,6 +30,7 @@ function MainPage() {
           <button onClick={() => handleNavigation("/feedback")} className="big-button">
             Contact Us
           </button>
+          <button onClick={()=>handleNavigation("/post")} className="big-button">Post</button>
         </div>
       </div>
     </div>
