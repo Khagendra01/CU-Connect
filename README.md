@@ -18,6 +18,8 @@ go to your file in vs studio<br>
 go to main directory "cu-connect"<br>
 git pull<br>
 
+i found new way to synch
+
 do changes------<br>
 <br>
 go to main directory "cu-connect"<br>
